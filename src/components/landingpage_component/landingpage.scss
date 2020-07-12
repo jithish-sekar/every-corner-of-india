@@ -35,7 +35,7 @@ h4{
 }
 @media(max-width:700px){
     .titleImg{
-        height: 122px;
+        height: 120px;
     }
 }
 img{
@@ -47,7 +47,7 @@ img{
 }
 @media(max-width:700px){
     img{
-        height: 200px;
+        height: 170px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -80,12 +80,23 @@ h5{
    padding-top: 5%;
    width:40%;
 }
+@media(max-width:700px){
+    .blogDetails{
+        width: 100%;
+    }
+}
 h6{
     color: rgb(73, 73, 73);
     font-family: 'Exo 2', sans-serif;
     font-size: 30px;
     margin-top: 0;
     padding-left: 80px;
+}
+@media(max-width:700px){
+    h6{
+    padding-left: 10px;
+    font-size: 20px;
+    }
 }
 .longDetails{
     width: 55%;
@@ -94,6 +105,11 @@ h6{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: #ffff;
+}
+@media(max-width:700px) {
+    .longDetails{
+width: 90%;
+    }
 }
 h1{
     font-family: 'Josefin Sans', sans-serif;

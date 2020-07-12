@@ -8,6 +8,7 @@ class App extends Component {
       <React.Fragment>
         <NavbarComponent/>
         <Router/>
+        <NavbarComponent/>
       </React.Fragment>
     );
   }

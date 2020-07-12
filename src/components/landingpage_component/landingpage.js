@@ -37,14 +37,15 @@ export default class LandingPageComponent extends Component {
                             <p>People who want to see the world a little bit differently, and in a responsible and ethical way too. </p>
                             <div style={{display:"flex",alignItems:"center"}}>
                             <h1>TRAVELLERS LIKE YOU.</h1>
-                            <img style={{height:"70px",margin:0}}src="map.jpg" alt="map"/>
+                            {/* <img style={{height:"30px",margin:0}}src="map.jpg" alt="map"/> */}
                             </div>
-                            <p>
+                            <p style={{margin:0}}>
                                 This website owned by Reshma Karthikeyan, a normal Indian  who swapped their everyday lives for something more extraordinary, trading office cubicles for a life on the road and real human connections.
                             <br /> <br />
                              Using our exceptional in-depth travel guides, beautiful photography, and travel and adventure narratives, we promise to stoke your wanderlust and empower you to wander in whichever direction you choose.
                             </p>
                         </div>
+                        <></>
                     </div>
                 </div>
             </React.Fragment >
