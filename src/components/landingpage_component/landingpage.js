@@ -39,7 +39,7 @@ export default class LandingPageComponent extends Component {
                             <h1>TRAVELLERS LIKE YOU.</h1>
                             {/* <img style={{height:"30px",margin:0}}src="map.jpg" alt="map"/> */}
                             </div>
-                            <p style={{margin:0}}>
+                            <p >
                                 This website owned by Reshma Karthikeyan, a normal Indian  who swapped their everyday lives for something more extraordinary, trading office cubicles for a life on the road and real human connections.
                             <br /> <br />
                              Using our exceptional in-depth travel guides, beautiful photography, and travel and adventure narratives, we promise to stoke your wanderlust and empower you to wander in whichever direction you choose.
