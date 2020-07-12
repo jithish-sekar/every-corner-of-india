@@ -1,0 +1,78 @@
+.landingContainer{
+    background-color: #758284;
+    height: 100%;
+    width: 100%;
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 71px;
+    word-spacing: 1px;
+    line-height: 90px;
+    text-transform: none;
+    letter-spacing: -3px;
+    color:rgb(219, 211, 211);
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}    
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 70px;
+    color: #f2f2f2;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+
+}
+img{
+    margin-top:20px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: auto;
+    padding: 27px;
+}
+
+.travelContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(219, 211, 211);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.blogDetails{
+   padding-top: 5%;
+   width:40%
+
+}
+h6{
+    color: #BAAC7D;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    padding-left: 80px;
+}
+.longDetails{
+    width: 55%;
+    padding-top: 4%;
+    padding-left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #BAAC7D;
+    font-size: 35px;
+}
+.detailContainer{
+    display: flex;
+}
+}

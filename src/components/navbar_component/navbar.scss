@@ -1,0 +1,31 @@
+.navbarContainer{
+   display: flex;
+   justify-content: space-between;  
+   align-items: center;
+   background-color: #DDE4E2;  
+//    box-shadow: 0 8px 6px -6px rgb(14, 14, 14);   
+
+ul{
+   display: flex;
+}
+li{
+    padding: 10px;
+    padding-right: 30px;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+@media(max-width:700px){
+    li{
+    padding-right: 0px;
+
+    }
+}
+h3{
+    padding-left: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+}
