@@ -5,8 +5,9 @@ export default class NavbarComponent extends Component {
         return (
             <React.Fragment>
                 <div className="navbarContainer">
-                    <div>
-                        <h3>EveryCornerOfIndia</h3>
+                    <div style={{display:"flex",alignItems:"center"}}>
+                        <h3>EveryCornerOfIndia </h3>
+                        <img style={{height:"40px",paddingLeft:"10px"}} src="map.jpg" alt='logo'/>
                     </div>
                     <div>
                         <ul>

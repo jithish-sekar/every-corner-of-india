@@ -7,9 +7,8 @@ export default class LandingPageComponent extends Component {
             <React.Fragment>
                 <div className="landingContainer">
                     <div>
-                        <h3>Every Corner Of India</h3>
+                        <img className="titleImg" src="every.png" alt='title'/>
                     </div>
-                    <h4>THE COMMON WANDERER</h4>
                     <div className="travelContainer">
                         <div>
                             <img src="wander1.jpg" alt='landingImage' />
@@ -24,9 +23,11 @@ export default class LandingPageComponent extends Component {
                             <h5> Travel Planning</h5>
                         </div>
                     </div>
+                    <h4>THE COMMON WANDERER</h4>
                     <div className="detailContainer">
                         <div className="blogDetails">
-                            <h6>TravMedia Blogger of the Year | 2020  <br />UK Blog Award winners | 2019 </h6>
+                            <h6 style={{margin:0}}>stories and musings from a life of travel.!! <br />OUR LATEST ADVENTURE </h6>
+                            <img src="explore1.jpeg" alt="explore"className="exploreImg"/>
                         </div>
                         <div className="longDetails">
                             <p>Every Corner Of India is a travel blog dedicated to the roamers and seekers.</p>
@@ -34,9 +35,12 @@ export default class LandingPageComponent extends Component {
                             <p>It's for the travellers and adventurers who go in search of authentic, real life experiences in exciting destinations around the world.</p>
 
                             <p>People who want to see the world a little bit differently, and in a responsible and ethical way too. </p>
+                            <div style={{display:"flex",alignItems:"center"}}>
                             <h1>TRAVELLERS LIKE YOU.</h1>
+                            <img style={{height:"70px",margin:0}}src="map.jpg"/>
+                            </div>
                             <p>
-                                This website is the internet baby of Reshma Karthikeyan, a normal Indian  who swapped their everyday lives for something more extraordinary, trading office cubicles for a life on the road and real human connections.
+                                This website owned by Reshma Karthikeyan, a normal Indian  who swapped their everyday lives for something more extraordinary, trading office cubicles for a life on the road and real human connections.
                             <br /> <br />
                              Using our exceptional in-depth travel guides, beautiful photography, and travel and adventure narratives, we promise to stoke your wanderlust and empower you to wander in whichever direction you choose.
                             </p>

@@ -16,13 +16,27 @@ h3{
 }    
 h4{
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 70px;
+    padding-top: 80px;
     color: #f2f2f2;
+    margin: 0;
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
     margin: 0;
+    color: #BAAC7D;
 
+}
+.titleImg{
+    height: 190px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:700px){
+    .titleImg{
+        height: 100px;
+    }
 }
 img{
     margin-top:20px;
@@ -31,11 +45,25 @@ img{
     margin-right: auto;
     padding: 27px;
 }
+@media(max-width:700px){
+    img{
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .travelContainer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media(max-width:700px){
+  .travelContainer{
+      display: block;
+    
+  }  
 }
 h5{
     text-align: center;
@@ -50,8 +78,7 @@ h5{
 
 .blogDetails{
    padding-top: 5%;
-   width:40%
-
+   width:40%;
 }
 h6{
     color: rgb(73, 73, 73);
@@ -72,8 +99,32 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(73, 73, 73);
     font-size: 35px;
+    margin: 0;
 }
 .detailContainer{
     display: flex;
+}
+@media(max-width:700px) {
+    .detailContainer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+.exploreImg{
+  padding-top:30px;
+  width:330px;
+  margin:0;  
+  border-radius:60px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto
+}
+
+@media(max-width:700px){
+    .exploreImg{
+        width: auto;
+    }
 }
 }
