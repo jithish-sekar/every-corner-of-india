@@ -13,7 +13,7 @@ export default class NavbarComponent extends Component {
                         <ul>
                             <li>About</li>
                             <li>Travelled Destinations </li>
-                            <li>Responsible Travel</li>
+                            {/* <li>Responsible Travel</li> */}
                         </ul>
                     </div>
                 </div>
