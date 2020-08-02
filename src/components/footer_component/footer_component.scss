@@ -1,0 +1,56 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    .navigator{
+        li{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            cursor: pointer;
+            list-style: none;
+            padding-top: 10px;
+        }
+    }
+    .socialmedia{
+        li{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            // padding-top: 3px;
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+    .searchbar {
+    li{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px; 
+        padding-top: 10px;
+        cursor: pointer;
+      }
+      button{
+          border: 1px solid black;
+          background-color: rgb(39, 39, 39);
+          color: #fff;
+          font-family: 'Josefin Sans', sans-serif;
+          text-align: justify;
+          height: 30px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    }
+    .address{
+        li{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px; 
+        padding-top: 10px;  
+    }
+    }
+    }
+    .copyryt{
+        h6{
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 14px;
+        }
+    }
+    

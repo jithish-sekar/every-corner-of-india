@@ -26,7 +26,7 @@ export default class LandingPageComponent extends Component {
                     <h4>THE COMMON WANDERER</h4>
                     <div className="detailContainer">
                         <div className="blogDetails">
-                            <h6 style={{margin:0}}>stories and musings from a life of travel.!! <br />OUR LATEST ADVENTURE </h6>
+                            {/* <h6 style={{margin:0}}>stories and musings from a life of travel.!! <br />OUR LATEST ADVENTURE </h6> */}
                             <img src="explore1.jpeg" alt="explore"className="exploreImg"/>
                         </div>
                         <div className="longDetails">
@@ -43,12 +43,14 @@ export default class LandingPageComponent extends Component {
                                 This website owned by Reshma Karthikeyan, a normal Indian  who swapped their everyday lives for something more extraordinary, trading office cubicles for a life on the road and real human connections.
                             <br /> <br />
                              Using our exceptional in-depth travel guides, beautiful photography, and travel and adventure narratives, we promise to stoke your wanderlust and empower you to wander in whichever direction you choose.
+                            <br /> <br />
+                            <br /> <br />
                             </p>
                         </div>
                         <></>
                     </div>
                 </div>
             </React.Fragment >
-        )
+        )   
     }
 }

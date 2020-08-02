@@ -17,6 +17,10 @@ li{
     font-size: 16px;
     text-transform: uppercase;
 }
+li:hover{
+   color: #5f5f5f;
+  
+}
 @media(max-width:700px){
     li{
     padding-right: 0px;
