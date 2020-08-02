@@ -6,7 +6,7 @@ export default class NavbarComponent extends Component {
             <React.Fragment>
                 <div className="navbarContainer">
                     <div style={{display:"flex",alignItems:"center"}}>
-                        {/* <h3>EveryCornerOfIndia </h3> */}
+                        <h3>EveryCornerOfIndia </h3>
                         <img style={{height:"40px",paddingLeft:"10px"}} src="map.jpg" alt='logo'/>
                     </div>
                     <div>
