@@ -36,7 +36,7 @@ export default class FooterComponent extends Component {
                     </div> */}
                 </div>
                 <div className="copyryt">
-                    <h6>&#169; 2020 copyright:<a href="https://quizzical-hopper-51c946.netlify.app">everycornerofindia.com</a></h6>
+                    <h6>&#169; 2020 copyright:<a href="https://everycornerofindia.netlify.app/">everycornerofindia.com</a></h6>
                 </div>
             </React.Fragment>
         )
