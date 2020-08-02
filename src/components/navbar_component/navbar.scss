@@ -6,8 +6,10 @@
 //    box-shadow: 0 8px 6px -6px rgb(14, 14, 14);   
 
 ul{
-   display: flex;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
 li{
     padding: 10px;
     padding-right: 30px;
@@ -23,8 +25,9 @@ li:hover{
 }
 @media(max-width:700px){
     li{
-    padding-right: 0px;
-    display: none;
+    // padding-right: 0px;
+    // display: none;
+    font-size: 12px;
     }
 }
 h3{
